@@ -1,0 +1,41 @@
+<section class="chat-preview">
+    <div class="d-flex">
+        <div class="center-part">
+            <div>
+                <div class="preview-part">
+                    <!-- MAIN CHAT PART | START -->
+                    <div class="whatsapp-chat w-100" id="conversation">
+                        <ng-container *ngFor="let chat of chats">
+                            <ng-container *ngIf="name !== chat.username">
+                                <div class="user-chat d-flex align-center">
+                                    <div class="chat">
+                                      <span class="user-name">{{chat.username}}</span>
+                                      <p>{{ chat.message }}</p>
+                                      <span class="time-stamp"> {{ chat.timestamp | date: "shortTime" }}</span>
+                                    </div>
+                                </div>
+                            </ng-container>
+                            <ng-container *ngIf="name === chat.username">
+                                <div class="me-chat d-flex align-center">
+                                    <div class="chat">
+                                      <span class="user-name">You</span>
+                                      <p>{{ chat.message }}</p>
+                                      <span class="time-stamp"> {{ chat.timestamp | date: "shortTime" }}</span>
+                                    </div>
+                                  </div>
+                            </ng-container>
+                        </ng-container>
+                    </div>
+                    <!-- MAIN CHAT PART | END -->
+                </div>
+                <div class="message-part">
+                    <div class="d-flex align-center just-center">
+                        <input #newMessage type="text" class="input"  (keyup.enter)="sendMessage()" placeholder="Type message" [(ngModel)]="message"/>
+                        <mat-icon  (click)="sendMessage()"  class="material-icons-outlined send">send
+                        </mat-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_64">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_64" data-name="Web 1920 – 64" clip-path="url(#clip-Web_1920_64)">
+    <rect width="1920" height="1080" fill="rgba(255,255,255,0)"/>
+    <text id="_-" data-name="-" transform="translate(195 621)" fill="#66737f" font-size="14" font-family="GoogleSans-Medium, Google Sans" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">-</tspan></text>
+    <circle id="Ellipse_1624" data-name="Ellipse 1624" cx="169" cy="169" r="169" transform="translate(-184 901)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1625" data-name="Ellipse 1625" cx="120" cy="120" r="120" transform="translate(-80 -100)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1626" data-name="Ellipse 1626" cx="251" cy="251" r="251" transform="translate(1486 -456)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1627" data-name="Ellipse 1627" cx="97" cy="97" r="97" transform="translate(1742 1028)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1628" data-name="Ellipse 1628" cx="46" cy="46" r="46" transform="translate(1878 547)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1629" data-name="Ellipse 1629" cx="14" cy="14" r="14" transform="translate(1878 453)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1632" data-name="Ellipse 1632" cx="27" cy="27" r="27" transform="translate(1810 405)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1631" data-name="Ellipse 1631" cx="7" cy="7" r="7" transform="translate(1853 521)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1639" data-name="Ellipse 1639" cx="27" cy="27" r="27" transform="translate(1897 124)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1633" data-name="Ellipse 1633" cx="12" cy="12" r="12" transform="translate(1860 714)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1637" data-name="Ellipse 1637" cx="14" cy="14" r="14" transform="translate(-10 563)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1634" data-name="Ellipse 1634" cx="27" cy="27" r="27" transform="translate(32 515)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1635" data-name="Ellipse 1635" cx="7" cy="7" r="7" transform="translate(29 631)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1638" data-name="Ellipse 1638" cx="12" cy="12" r="12" transform="translate(12 824)" fill="#2198fa" opacity="0.2"/>
+    <circle id="Ellipse_1636" data-name="Ellipse 1636" cx="46" cy="46" r="46" transform="translate(-74 657)" fill="#2198fa" opacity="0.2"/>
+  </g>
+</svg>

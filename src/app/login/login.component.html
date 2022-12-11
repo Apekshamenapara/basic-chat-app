@@ -1,0 +1,32 @@
+<div class="login-container">
+    <div class="login-background">
+      <div class="login-form ">
+          <!--Login Form-->
+          <div class="login-form-background">
+            <div>
+              <h3 class="heading-4 color-primary font-500">
+                Welcome to your account
+              </h3>
+            </div>
+            <form [formGroup]="loginForm">
+              <div class="">
+                <mat-form-field appearance="fill" class="w-100 accent">
+                    <input matInput autocomplete="off" type="text" placeholder="Name" formControlName="name" />
+                  </mat-form-field>
+              </div>
+              <div>
+                <mat-form-field appearance="fill" class="w-100 accent">
+                    <input matInput autocomplete="off" type="email" placeholder="Email address" formControlName="email" />
+                  </mat-form-field>
+              </div>
+  
+              <div>
+                <button type="submit" class="common-button" mat-flat-button color="primary" (click)="doLogin()">
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>

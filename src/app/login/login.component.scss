@@ -1,0 +1,34 @@
+@import "../../styless/color-palette.scss";
+
+.login-background {
+  background-color: $background-primary-color;
+  background-size: 100vw 40vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  border-radius: 5px;
+  box-shadow: -8px 8px 11px -3px rgba(176, 174, 176, 0.58);
+
+  .login-form-background {
+    position: relative;
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.login-container {
+  height: 100%;
+  position: relative;
+}
+.width-fit-content {
+  width: fit-content;
+}
+}

@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "./styless/color-palette.scss";
+
+
+.w-100 {
+    width: 100%;
+}
+
+.common-button {
+    min-width: 110px !important;
+    height: 40px;
+    border-radius: $global-border-radius !important;
+    padding: 0 20px !important;
+  
+    mat-icon {
+      margin-left: -4px;
+      margin-right: 5px;
+    }
+  }
+
+
+  .d-flex {
+    display: flex !important;
+  }
+  .align-center {
+    align-items: center !important;
+  }
+  .just-center {
+    justify-content: center !important;
+  }
